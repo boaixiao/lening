@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script type="text/javascript" src="vuejs/vuejs-2.5.16.js"></script>
+<script type="text/javascript" src="vuejs/axios-0.18.0.js"></script>
+<body>
+<center>
+    <div id="logindiv">
+    账号:<input type="text" v-model="ub.uname" required="required">   <br>
+    密码:<input type="password" v-model="ub.pwd" required="required"> <br>
+    <input type="button" value="登录" @click="getLogin()">
+    </div>
+</center>
+</body>
+<script type="text/javascript" src="myjs/index.js"></script>
+</html>
